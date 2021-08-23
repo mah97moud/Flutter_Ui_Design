@@ -1,8 +1,7 @@
+import 'package:complete_flutter_ecomerce/modules/splash/splash_screen.dart';
 import 'package:complete_flutter_ecomerce/shared/routes/routs.dart';
 import 'package:complete_flutter_ecomerce/shared/theme/light_theme.dart';
 import 'package:flutter/material.dart';
-
-import 'modules/home/home_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +16,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: theme(),
       // home: HomeScreen(),
-      initialRoute: HomeScreen.routeName,
+      initialRoute: SplashScreen.routeName,
       routes: routes,
     );
   }
