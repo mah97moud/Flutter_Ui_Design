@@ -1,4 +1,4 @@
-# complete_flutter_ecomerce
+# flutter_ecommerce_ui
 
 A new Flutter project.
 
