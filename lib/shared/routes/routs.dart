@@ -5,6 +5,7 @@ import 'package:complete_flutter_ecomerce/modules/forgot_password/forgot_passwor
 import 'package:complete_flutter_ecomerce/modules/home/home_screen.dart';
 import 'package:complete_flutter_ecomerce/modules/login_success/login_success_screen.dart';
 import 'package:complete_flutter_ecomerce/modules/otp/otp_screen.dart';
+import 'package:complete_flutter_ecomerce/modules/profile/profile_screen.dart';
 import 'package:complete_flutter_ecomerce/modules/sign_in/sign_in_screen.dart';
 import 'package:complete_flutter_ecomerce/modules/sign_up/sign_up_screen.dart';
 import 'package:complete_flutter_ecomerce/modules/splash/splash_screen.dart';
@@ -23,4 +24,5 @@ final Map<String, WidgetBuilder> routes = {
   HomeScreen.routeName: (context) => HomeScreen(),
   DetailsScreen.routeName: (context) => DetailsScreen(),
   CartScreen.routeName: (context) => CartScreen(),
+  ProfileScreen.routeName: (context) => ProfileScreen(),
 };
